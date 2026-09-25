@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 
 function App() {
-  const API = "http://localhost:5000/api/tasks";
+  // const API = "http://localhost:5000/api/tasks";
+  const API = "https://taskmanager-api-qtji.onrender.com/api/tasks";
 
   const [taskTitle, setTaskTitle] = useState("");
   const [tasks, setTasks] = useState([]);

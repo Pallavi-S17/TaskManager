@@ -46,7 +46,7 @@ function App() {
 const deleteTask = async (id) => {
 
   await fetch(
-    `http://localhost:5000/api/tasks/${id}`,
+    `https://taskmanager-api-qtji.onrender.com/api/tasks/${id}`,
     {
       method: "DELETE",
     }
